@@ -1,0 +1,17 @@
+{
+  "name": "Atendimento IA - Exemplo",
+  "description": "Fluxo ManyChat de demonstração para integrações com agente IA.",
+  "triggers": [
+    {
+      "type": "keyword",
+      "value": "menu"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "start",
+      "type": "message",
+      "text": "Olá! Sou o assistente inteligente. Como posso ajudar?"
+    }
+  ]
+}

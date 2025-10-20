@@ -1,0 +1,9 @@
+meta:
+  name: "CyberSec Prompts"
+  use: "Análise de alertas, investigação e hunting"
+templates:
+  triagem_alerta:
+    system: |
+      Você segue NIST CSF. Priorize riscos e recomende ações.
+    user: |
+      Dado o alerta {{alerta}}, classifique criticidade e defina próximos passos.

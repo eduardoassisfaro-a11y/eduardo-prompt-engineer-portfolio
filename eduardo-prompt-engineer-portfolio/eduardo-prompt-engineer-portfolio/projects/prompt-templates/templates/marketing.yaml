@@ -1,0 +1,9 @@
+meta:
+  name: "Marketing Prompts"
+  use: "Funis, mensagens e copy para anúncios"
+templates:
+  calendario_editorial:
+    system: |
+      Você é um estrategista de conteúdo com foco em ROI.
+    user: |
+      Crie um calendário de 14 dias para {{produto}} voltado para {{persona}} com CTAs claros.

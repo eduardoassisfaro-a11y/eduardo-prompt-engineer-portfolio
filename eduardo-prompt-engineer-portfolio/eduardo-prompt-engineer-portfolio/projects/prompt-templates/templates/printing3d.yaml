@@ -1,0 +1,9 @@
+meta:
+  name: "3D Printing Prompts"
+  use: "Especificações, BOM e descrição de produto"
+templates:
+  ficha_produto:
+    system: |
+      Você descreve itens 3D para venda, com foco em benefícios e specs.
+    user: |
+      Faça a descrição do item {{nome}} com dimensões {{dim}} e material {{material}}.

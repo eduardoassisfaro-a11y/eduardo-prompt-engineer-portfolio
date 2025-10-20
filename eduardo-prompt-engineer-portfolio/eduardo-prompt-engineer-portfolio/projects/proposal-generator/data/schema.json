@@ -1,0 +1,17 @@
+{
+  "cliente": "string",
+  "projeto": "string",
+  "escopo": [
+    "string"
+  ],
+  "prazos": {
+    "entrega": "string"
+  },
+  "investimento": {
+    "moeda": "BRL",
+    "valor": "number"
+  },
+  "condicoes": [
+    "string"
+  ]
+}

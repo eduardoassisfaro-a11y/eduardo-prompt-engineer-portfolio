@@ -1,0 +1,10 @@
+meta:
+  name: "Engineering Prompts"
+  use: "Geração de memoriais, listas de materiais e checklists de conformidade"
+templates:
+  memorial_descritivo:
+    system: |
+      Você é um engenheiro especialista em BAS/EPMS e normas ABNT/NBR.
+    user: |
+      Gere um memorial descritivo para o sistema: {{sistema}} no empreendimento {{nome}}.
+      Liste normas, premissas e critérios de aceitação.

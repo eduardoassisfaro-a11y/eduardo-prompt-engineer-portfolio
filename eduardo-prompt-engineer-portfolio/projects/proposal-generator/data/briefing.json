@@ -1,0 +1,20 @@
+{
+  "cliente": "Empresa Exemplo",
+  "projeto": "Automação de Atendimento IA",
+  "escopo": [
+    "Chatbot",
+    "Integração WhatsApp",
+    "Treinamento de equipe"
+  ],
+  "prazos": {
+    "entrega": "15 dias"
+  },
+  "investimento": {
+    "moeda": "BRL",
+    "valor": 12000
+  },
+  "condicoes": [
+    "50% antecipado",
+    "50% na entrega"
+  ]
+}
